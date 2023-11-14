@@ -1,0 +1,89 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+* {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+  }
+h1 {
+    font-size: 40px;
+    text-shadow: 1px 1px 7px black;
+}
+h2 {
+    font-size: 30px;
+}
+p {
+    font-size:24px;
+    padding-left:10%;
+    padding-right:10%
+}
+nav {
+    overflow: hidden;
+    position:inherit
+
+}
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+nav a:hover {
+    color: #ddd;
+    border: #f2f2f2 1px solid;
+    padding: 12px 15px;
+}
+.bgImageFuture {
+    background-image: linear-gradient(rgba(30,140,255,0.3), rgba(30, 140, 255, 0.1)), url("Future.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bgImageHome {
+    background-image: linear-gradient(rgba(30,140,255,0.3), rgba(30, 140, 255, 0.1)), url("Home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bgImageSchool {
+    background-image: linear-gradient(rgba(30,140,255,0.3), rgba(30, 140, 255, 0.1)), url("School.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero {
+    padding-top: 44vh;
+    padding-bottom: 44vh;
+    position: relative;
+    color: white;
+}
+.odd {
+    background-color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.even {
+    background-color: ghostwhite;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.highlight {
+    color: dodgerblue;
+}
+img {
+    border: #000 3px solid;
+}
