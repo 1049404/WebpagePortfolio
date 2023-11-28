@@ -1,7 +1,10 @@
 body {
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    overflow-x: hidden;
     text-align: center;
     background-color: ghostwhite;
-    font-family: verdana;
 }
 img {
     width: 250px;
