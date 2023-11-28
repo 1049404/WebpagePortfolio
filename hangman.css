@@ -43,7 +43,7 @@ nav a:hover {
 .bgImageHangman {
     background-image: linear-gradient(rgba(30,140,255,0.3), rgba(30, 140, 255, 0.1)), url("paper.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-position: center;
     padding-bottom: 500px;
 }
