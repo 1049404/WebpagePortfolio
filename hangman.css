@@ -5,6 +5,11 @@ body {
     overflow-x: hidden;
     text-align: center;
     background-color: ghostwhite;
+
+    background-image: linear-gradient(rgba(30,140,255,0.3), rgba(30, 140, 255, 0.1));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 img {
