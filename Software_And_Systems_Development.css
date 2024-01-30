@@ -1,0 +1,264 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+* {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: 'PT Sans Narrow';
+    text-align: center;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: 'Oswald';
+    letter-spacing: 1.5px;
+}
+h2 {
+    font-size: 30px;
+    font-family: 'Oswald';
+}
+p {
+    font-size:24px;
+    padding-left:10%;
+    padding-right:10%;
+    letter-spacing: 1px;
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+li {
+    list-style: none;
+    font-size: 24px;
+    padding:0px;
+    margin:0px auto;
+    letter-spacing: 1px;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(35,42,102,0.5), rgba(35, 42, 102, 0.3)), url("SoftwareAndSystemsDevelopmentBackground.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 48vh;
+    padding-bottom: 48vh;
+    color: white;
+    
+}
+
+.explaination {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.jobs {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.listOfJobs {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.jobs img {
+    width: 40vw;
+    height: 50vh;
+    margin: 0 auto;
+}
+.jobOdd img {
+    
+}
+
+.jobEven img {
+    text-align: left;
+}
+
+
+.classDescription {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.requirements {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.classesOdd {
+    padding-top: 200px;
+    padding-bottom: 75px;
+}
+
+.classesEven {
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
+
+.carousel {
+  position: relative;
+  margin:auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 30vh;
+  height: 30vh;
+}
+
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.carousel .prev {
+  right:30vh;
+}
+.carousel .next {
+  left:30vh;
+}
+
+
+
+
+
+
+
+
+
+.readmore1 {
+    margin-top: 100px;
+    margin-bottom: -100px;
+   }
+   
+   
+   .readmore2 {
+    margin-top: 100px;
+    margin-bottom: -100px;
+   }
+   
+   
+   #morebutton1 {
+    height: 40px;
+    width: 80px;
+    font-weight: bold;
+   }
+   
+   
+   #morebutton2 {
+    height: 40px;
+    width: 80px;
+    font-weight: bold;
+   }
+   
+   
+   .container {
+       overflow: hidden;
+   }
+   
+   
+   .navbar {
+       background-color: #ecececf3;
+       overflow: hidden;
+       position: fixed;
+       width: 100%;
+       top: 0;
+       z-index: 1000;
+   }
+   
+   
+   .navbar ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+   }
+   
+   
+   .navbar li {
+       float: left;
+   }
+   
+   
+   .navbar a {
+       display: block;
+       color: white;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+   }
+   
+   
+   .navbar a:hover {
+       background-color: #ddd;
+       color: black;
+   }
+   
+   
+   .content {
+       margin-top: 60px; /* Adjust the margin-top to match the height of the navbar */ 
+   }
+   
+   
+   html {
+    scroll-behavior: smooth;
+   }
+   
+   
+   #navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff;
+   }
+   
+   
+   .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 6vh;
+    margin: 0;
+    padding: 0;
+   }
+   
+   
+   .navbar li {
+    margin: 0;
+   }
+   
+   
+   .navbar a {
+    text-decoration: none;
+    color: #333;
+   }
+   
+   
+   
+   
+   
+   
